@@ -7,3 +7,7 @@ __pycache__/
 *.pkl
 *.sqlite
 .DS_Store
+
+*.pem
+__pycache__/
+venv/
