@@ -22,9 +22,21 @@ Python · Pandas · Scikit-learn · OpenAI API · Gradio
 Public Formula 1 datasets (races, results, lap times, pit stops, constructors, circuits).
 
 ---
-
 ## ▶️ Run Locally
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Noel2521/F1-Race-Intelligence-Copilot.git
 cd F1-Race-Intelligence-Copilot
+pip install -r requirements.txt
+python app.py
+
+
+Also add this small note:
+
+```markdown
+## 🔐 Environment Variables
+
+Create a `.env` file and add:
+
+```bash
+OPENAI_API_KEY=your_api_key_here
